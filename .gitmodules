@@ -1,0 +1,4 @@
+[submodule "pkg/cgitc"]
+	path = pkg/cgitc
+	url = http://github.com/simnalamburt/cgitc
+	branch = master
