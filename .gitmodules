@@ -2,3 +2,7 @@
 	path = pkg/cgitc
 	url = http://github.com/simnalamburt/cgitc
 	branch = master
+[submodule "pkg/git-flow"]
+	path = pkg/git-flow
+	url = https://github.com/oh-my-fish/plugin-git-flow
+	branch = master
