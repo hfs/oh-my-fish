@@ -6,7 +6,3 @@
 	path = pkg/git-flow
 	url = https://github.com/oh-my-fish/plugin-git-flow
 	branch = master
-[submodule "pkg/fish-ssh-agent"]
-	path = pkg/fish-ssh-agent
-	url = https://github.com/tuvistavie/fish-ssh-agent.git
-	branch = master
