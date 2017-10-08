@@ -40,7 +40,7 @@ end
 
 function omf.packages.new -a option name
   switch $option
-    case "p" "pkg" "pack" "packg" "package"
+    case "p" "plugin"
       set option "pkg"
     case "t" "th" "the" "thm" "theme" "themes"
       set option "themes"
@@ -67,10 +67,6 @@ function omf.packages.new -a option name
       $github $user $name
 
     echo (omf::em)"Switched to $dir"(omf::off)
-
-    if test "$option" = themes
-      omf.theme.set $name
-    end
   else
     echo (omf::err)"\$OMF_CONFIG and/or \$OMF_PATH undefined."(omf::off) >&2
     exit $OMF_UNKNOWN_ERR
